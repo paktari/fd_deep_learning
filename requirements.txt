@@ -2,3 +2,4 @@ streamlit
 matplotlib
 StandardScaler
 utilities
+scikit-learn
