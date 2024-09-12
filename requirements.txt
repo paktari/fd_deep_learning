@@ -3,3 +3,4 @@ matplotlib
 StandardScaler
 scikit-learn
 jcopml
+xgboost
