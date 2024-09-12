@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
-import pandas as pd
 
+import pandas as pd
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
