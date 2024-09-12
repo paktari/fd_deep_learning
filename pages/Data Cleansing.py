@@ -22,7 +22,6 @@ st.info('Persiapan data')
 with st.expander('Data'):
   st.write('**Raw data**')
   
- 
   uploaded_file = st.file_uploader("Pilih Data", accept_multiple_files=False)
   if uploaded_file is not None:
      file_name = uploaded_file
