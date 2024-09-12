@@ -21,18 +21,21 @@ st.info('Persiapan data')
 
 with st.expander('Data'):
   st.write('**Raw data**')
-  uploaded_file = st.file_uploader("Select the MEV list file:", type="xlsx")
+  
+  #uploaded_file = st.file_uploader("Select the MEV list file:", type="xlsx")
+  #if uploaded_file is not None:
+    #df = pd.read_excel(uploaded_file, sheet_name=None)
+    #st.write(type(df))
+  uploaded_file = st.file_uploader("Pilih Data", accept_multiple_files=False)
   if uploaded_file is not None:
-    df = pd.read_excel(uploaded_file, sheet_name=None)
-    st.write(type(df))
-#  uploaded_file = st.file_uploader("Pilih Data", accept_multiple_files=False)
-#  if uploaded_file is not None:
- #   file_name = uploaded_file
- # else:
- #   file_name = "data_fd.xlsx"
+     file_name = uploaded_file
+     df = pd.read_excel(file_name)
+  else:
+    file_name = "data_fd.xlsx"
+    df = pd.read_excel('data_fd.xlsx')
     
  # df = pd.read_excel(file_name)
- # df
+ df
 
   st.write('**X**')
   X_raw = df.drop('FD', axis=1)
