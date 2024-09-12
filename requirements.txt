@@ -1,4 +1,4 @@
 streamlit
-RandomForestClassifier
+matplotlib
 StandardScaler
 utilities
