@@ -5,3 +5,4 @@ scikit-learn
 jcopml
 xgboost
 tensorflow
+pandas
