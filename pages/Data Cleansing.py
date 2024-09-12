@@ -24,7 +24,7 @@ with st.expander('Data'):
   uploaded_file = st.file_uploader("Pilih Data", accept_multiple_files=False)
   if uploaded_file is not None:
     file_name = uploaded_file
-else:
+  else:
     file_name = "data_fd.xlsx"
     
   df = pd.read_excel(file_name)
