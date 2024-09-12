@@ -21,7 +21,7 @@ st.info('Persiapan data')
 
 with st.expander('Data'):
   st.write('**Raw data**')
-  df = pd.read_excel('data/data_fd.xlsx')
+  df = pd.read_excel('/data/data_fd.xlsx')
   df
 
   st.write('**X**')
