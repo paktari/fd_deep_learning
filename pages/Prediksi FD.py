@@ -4,7 +4,7 @@ import streamlit as st
 from datetime import date
 
 # loaded_model 
-loaded_model = pickle.load(open('model/trained_model.pkl', 'rb'))
+# loaded_model = pickle.load(open('model/trained_model.pkl', 'rb'))
 
 
 def main():
