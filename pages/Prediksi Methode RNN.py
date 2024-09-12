@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Import training set
-dataset_train = pd.read_excel('data/data_fd.xlsx')
+dataset_train = pd.read_excel('data_fd.xlsx')
 dataset_train.drop(['kode_umkm','kesimpulan'], axis=1, inplace=True)
 training_set = dataset_train.iloc[:, 1:2].values
 st.write(dataset_train)
@@ -76,7 +76,7 @@ regressor.fit(X_train, y_train, epochs = 100, batch_size = 32)
 # 3 - Buat prediksi dan visualisasi hasil
 
 # data real
-dataset_test = pd.read_excel('data/data_fd_test.xlsx')
+dataset_test = pd.read_excel('data_fd_test.xlsx')
 dataset_test.drop(['kode_umkm','kesimpulan'], axis=1, inplace=True)
 real_stock_price = dataset_test.iloc[:, 1:2].values
 #real_stock_price = dataset_test.FD
