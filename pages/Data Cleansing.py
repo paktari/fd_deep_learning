@@ -28,7 +28,7 @@ with st.expander('Data'):
      df = pd.read_excel(file_name)
   else:
      file_name = "data_fd.xlsx"
-     df = pd.read_excel('data_fd.xlsx')
+     df = pd.read_excel(file_name)
     
  # df = pd.read_excel(file_name)
   st.write(df)
