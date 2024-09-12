@@ -6,3 +6,4 @@ jcopml
 xgboost
 tensorflow
 pandas
+openpyxl
