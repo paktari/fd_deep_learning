@@ -3,7 +3,7 @@ from utilities import load_css
 
 st.set_page_config(page_title="Deskripsi", page_icon="1️⃣")
 
-st.header("Fiancial Distress UMKM Batik dengan Deep Learning")
+st.header("Fiancial Distress UKM Batik dengan Deep Learning")
 
 st.markdown('''
 Financial distress adalah penurunan kinerja keuangan perusahaan.
