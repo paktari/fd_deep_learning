@@ -12,5 +12,5 @@ Financial distress adalah peristiwa penurunan kinerja keuangan perusahaan secara
 
 
 ''')
-st.markdown("<a href='data_fd_tahunan.xlsx' download>")
+#st.markdown("<a href='data_fd_tahunan.xlsx' download>")
 load_css()
